@@ -32,7 +32,7 @@ const CardList = () => {
                 }
             },
             {
-                breakpoint: 470,
+                breakpoint: 460,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
