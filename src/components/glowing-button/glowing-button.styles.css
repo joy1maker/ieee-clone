@@ -1,0 +1,45 @@
+.button{
+    background-color:#007bff;
+    border-radius: 20px;
+    width: 9vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	animation: pulse 2s 0.5s infinite ,pulse2 2s 2s infinite ;
+	
+    color:white;
+    font-size: 20px;
+}
+
+
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 #007bff;
+	}
+
+10% {
+		box-shadow: 0 0 0 10px #7fc5fd;
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 white;
+	}
+}
+@keyframes pulse2 {
+	0% {
+		box-shadow: 0 0 0 0 red;
+	}
+
+10% {
+		box-shadow: 0 0 0 20px #7fc5fd;
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 white;
+	}
+}

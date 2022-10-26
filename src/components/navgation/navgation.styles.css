@@ -1,0 +1,33 @@
+.nav-top{
+    display: flex;
+    background-color: #ffffff10 ;
+    backdrop-filter: blur(12px);
+    width: 80%;
+    margin: auto;
+    top: 30px;
+    border-radius: 0 20px;
+    color: #fff ;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 10px 0.5px #bebebe;
+    position: fixed;
+    z-index: 99999;
+    transition: all .5s ease-in-out;
+    height: 80px;
+}
+.nav-scroll{
+    height: 80px;
+    display: flex;
+    background-color: rgb(12 99 161 / 70%) ;
+    backdrop-filter: blur(12px);
+    background-color: rgb(12 99 161 / 70%) ;
+    top: 15px ;
+    box-shadow: 0.5px 0.5px 15px 8px #032f4e ;
+    width: 80%;
+    margin: auto;
+    border-radius: 0 20px;
+    color: #fff ;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+    transition: all .5s ease-in-out
+}

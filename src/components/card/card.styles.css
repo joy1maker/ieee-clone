@@ -1,0 +1,45 @@
+.card-container{
+    margin-left:10px ;
+    height: 550px;
+    background-image: url("../../assets/SHAMEL.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    filter: grayscale(5);
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.card-container:hover{
+    filter: grayscale(0);
+}
+.card-container span{
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: inherit;
+}
+.card-container:hover span{
+    opacity: 1;
+}
+
+.name{
+    font-size: 27px;
+    color: yellow;
+    
+}
+.title{
+    font-size: 20px;
+    color: white;
+}
+@media (max-width:700px) {
+    .card-container{
+        filter: grayscale(0);
+    }
+    .card-container span{
+        opacity: 1;
+    }
+}

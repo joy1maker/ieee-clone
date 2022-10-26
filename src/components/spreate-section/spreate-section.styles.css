@@ -1,0 +1,24 @@
+.hr{
+    align-items: center;
+    border-bottom: 1px solid #83878b;
+    display: flex;
+    margin: 40px 0;
+    text-align: center;
+    width: 70%;
+    position: relative;
+}
+
+.spreateor-container{
+    margin:40px;
+}
+.desc{
+    color: #666666;
+    font-size: 20px;
+}
+.title{
+    font-size: 35px;
+    color: #212529;
+}
+.swiggle-line{
+    margin-top:20px;
+}
